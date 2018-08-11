@@ -1,0 +1,19 @@
+{
+  "name": "mizuxe",
+  "version": "1.0.0",
+  "description": "Mizuxe",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Hana Seki",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gh-pages": "^1.2.0"
+  }
+}
